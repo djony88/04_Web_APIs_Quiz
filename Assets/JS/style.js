@@ -105,7 +105,6 @@ function displayQuestion(question){
      var button =document.createElement("button")
     button.className="btn-primary btn-block text-left"
     button.innerText=element
-    // questionanswers.innerHTML=""
     questionanswers.appendChild(button)
     button.addEventListener("click", displaynextQuestion)
     });
@@ -134,6 +133,7 @@ function displaynextQuestion(e){
     
      
 }
+//  response alert 
 function correction(response){
     
     if(response){
@@ -152,8 +152,9 @@ function correction(response){
         }, 1000);
 
 }
+// End game function
  function endgame (){
-    // btnStart.classList.add("d-none")
+
     myScore.innaText = count
     addscore.classList.remove("d-none")
     timecounter.classList.add("d-none")

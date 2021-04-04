@@ -1,9 +1,10 @@
+// Score page variables
 var storedScores = JSON.parse(localStorage.getItem("userData"));
 var highScoresArea = document.querySelector("#highScoresList");
 var backBtn = document.querySelector("#backButton");
 var clearBtn = document.querySelector("#clearScores");
 
-
+// Score functions
 function displayScores() {
     if (storedScores !== null) {
         var scoreList = document.createElement("ol");
@@ -21,10 +22,12 @@ function displayScores() {
 
 displayScores();
 
+// back button function
 backBtn.addEventListener("click", function () {
     location.href = "index.html";
 });
 
+// clear score button
 clearBtn.addEventListener("click", function () {
     highScoresArea.innerHTML = "";
     window.localStorage.clear();

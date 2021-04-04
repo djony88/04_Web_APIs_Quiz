@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Code-Quiz</title>
+    <title>JavaScript Quiz</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+<!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
 
@@ -13,7 +13,7 @@
     
 </head>
 <body>
-    
+    <!-- Start Game box  -->
     <div class="container d-flex justify-content-center mt-5">
         
         <div class="game-box col-lg-8 p-4">
@@ -25,10 +25,10 @@
                 </div>
                 <hr>
                 <div class="col-lg-4"></div>
-
+<!-- Add Timer -->
                 <div class="col-lg-4">
                     <h4 class="float-right text-primary d-none" id="timecounter">Timer :<span id="timer">75</span></h4>
-
+<!-- Add Quiz questions -->
                 </div>
             </div>
             <div class="quiz-questions d-none" id="quiz-questions">
@@ -36,7 +36,7 @@
                 <div class="answers mt-5 mb-5" id="question-answers">
                 </div>
                 <h1 id="alert"></h1>
-                
+                <!-- Info about quiz with start btn -->
             </div>
             <div class="btnstart d-flex flex-column justify-content-center mt-8 mb-10" > 
                 <p id="info">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score time by 15 seconds.
@@ -44,7 +44,7 @@
                 <button class="btn btn-primary btn-lg" id="btn-start">Start Quiz</button>
                 
             </div>
-            
+            <!-- Score page with initials submit selector -->
             <div class=" input-group mb-3 d-none" id="addscore">
                 <h5 class="d-block"><span id="score"></span></h5>
                     <input type="text" class="form-control" placeholder="Enter your initials:"
