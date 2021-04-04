@@ -1,9 +1,9 @@
 /* Adding body style and bacground image */
 body,html{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'New Tegomin', serif;
     text-align: center;
-    background-image: url(".\Assets\Images\Background.png");
     height: 100%;
+    color: rgb(0, 0, 0);
 }
 
     /* Adding game box style */
@@ -24,9 +24,9 @@ body,html{
     border:none;
 	padding:6px 0 6px 0;
 	border-radius:8px;
-	background:#7716c7;
+	background:#223fdf;
     font:bold 40px;
-	color:rgb(253, 175, 86);
+	color:rgb(255, 255, 255);
 }
 
 #code-title{
