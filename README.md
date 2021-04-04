@@ -47,3 +47,5 @@ JavaScript:
 * Adding score functions
 * Adding back button function
 * Adding clear score button
+
+![Webpage preview](./Assets/Images/Screenshoot.PNG)
